@@ -1,4 +1,5 @@
 package in.ac.sharda.pizz_app.domain;
+
 public class Product {
 
 	private final int id;
@@ -34,6 +35,12 @@ public class Product {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+	// ***2.) CREATED A SECOND CONSTRUCTOR WITH ONLY ONE ARGUMENT
+	public Product (int id)
+	{
+		this.id = id;
+	}
+	
 	
 	//CONSTRUCTOR AUTO DEFINED..... 
 	//THIS CONSTRUCTOR IS USED IN PLACE OF ALL THE SETTERS 
